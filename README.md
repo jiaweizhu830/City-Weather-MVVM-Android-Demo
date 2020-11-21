@@ -59,7 +59,7 @@ Raw JSON data fetched from [OpenWeather API](https://openweathermap.org/current)
 </pre>
 
 
-OpenWeather API query parameter
+Query parameters used in OpenWeather API call
 - id: "city id"
   - [OpenWeather](https://openweathermap.org/current#cityid) recommends to call API by city ID (from city.list.json.gz) to get unambiguous result.
 - appid: "API Key"
