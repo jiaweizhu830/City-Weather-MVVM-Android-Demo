@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/cities_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:background="#f1f1f1"
+        android:stretchColumns="0,1">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1"
+                android:id="@+id/textCity"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="#ffffff"/>
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weather"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1"
+                android:id="@+id/textWeather"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="#ffffff"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1"
+                android:id="@+id/textDescription"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="#ffffff"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current Temperature (°F)"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1"
+                android:id="@+id/textTemperature"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="#ffffff"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feels Like (°F)"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1"
+                android:id="@+id/textFeelsLike"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="#ffffff"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temperature Range (°F)"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1"
+                android:id="@+id/textTemperatureRange"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="#ffffff"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Humidity (%)"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1"
+                android:id="@+id/textHumidity"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="#ffffff"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pressure (hPa)"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1"
+                android:id="@+id/textPressure"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="16dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="#ffffff"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CityWeather</string>
+
+    <string-array name="cities_array">
+        <item>Select City</item>
+        <item>Los Angeles</item>
+        <item>San Francisco</item>
+    </string-array>
+</resources>
