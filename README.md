@@ -13,7 +13,7 @@ App Architecture: MVVM <br>
 
 
 ## OpenWeather API
-Raw JSON data fetched from [OpenWeather API](https://openweathermap.org/current) (bolded fields are kept and displayed to user) <br>
+Raw JSON data fetched from [OpenWeather API](https://openweathermap.org/current) (<b>bolded</b> fields are kept and displayed to user) <br>
 <pre>
 {
     "coord": {
